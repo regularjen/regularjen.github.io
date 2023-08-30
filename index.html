@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Victor Mono' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Slackey' rel='stylesheet'>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Victor Mono', sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #859728;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+	/* font-family: serif; 
+	font-family: 'Alfa Slab One', serif; */
+    font-family: 'Slackey', sans-serif;
+    font-size: 80px;
+}
+
+/* Increase the font size of the heading */
+h2 {
+	/* font-family: serif; 
+	font-family: 'Alfa Slab One', serif; */
+    font-family: 'Slackey', sans-serif;
+    font-size: 25px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #338593;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #FFF8E9;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #FFFFCC;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: #FFF8E9;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background: #ECB332;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>regularjen.com</h1>
+  <p>Personal website of Jen Dixon</p>
+</div>
+
+<div class="navbar">
+  <a href="https://www.instagram.com/the_regularjen/">Instagram</a>
+  <a href="https://www.facebook.com/artbyjen/">Facebook</a>
+  <a href="https://twitter.com/regularjen/">Twitter/X</a>
+  <a href="https://www.skillshare.com/en/r/user/jendixon?gr_tch_ref=on/" class="right">Find my classes on Skillshare</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About:</h2>
+    <p>Formerly a blog spanning 2004-2021.</p><p>Mothballed on 30 August 2023.</p>
+  </div>
+  <div class="main">
+    <h2>WHERE IS THE BLOG?</h2>
+    <p>Things change.</p>
+    <p>I stopped blogging regularly a bunch of years ago. Some life stuff happened and I drifted from writing because things were just different. I kept all the posts. Maybe one day my desire to write here will return, and I'll decide then if the previous entries should surface again. And maybe they won't. Because things change.</p>
+    <br>
+    <h2>WHERE TO FIND ME:</h2>
+    <p>I'm around. Just not here.</p>
+    <p><a href="https://www.jendixon.com/">jendixon.com</a> is my artist website, where you can find my most current information and business contact methods. <a href="https://www.jendixon.com/">jendixon.com</a> is my professional work, not for personal regularjen.com enquiries. Use the links above to find my personal <a href="https://www.instagram.com/the_regularjen/">Instagram</a>, <a href="https://www.facebook.com/artbyjen/">Facebook</a>, and <a href="https://twitter.com/regularjen/">Twitter</a> (or X, whatever), as well as my classes on <a href="https://www.skillshare.com/en/r/user/jendixon?gr_tch_ref=on/">Skillshare under Jen Dixon</a>.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Thanks for the memories.</h2>
+</div>
+
+</body>
+</html>
